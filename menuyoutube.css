@@ -1,0 +1,485 @@
+.page-color{
+    position: absolute;
+    background-color: black;
+    height: 100vh;
+    width: 100vw;
+    left: 0;
+    top: 0;
+}
+
+
+/*account button*/
+
+
+.account-button{
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    position: absolute;
+    top: 10px;
+    left: 1850px;
+}
+
+.account-div{
+    background-color: #202020;
+    width: 300px;
+    height: 200px;   
+    display: none;
+    left: 1600px;
+    position: absolute;
+    
+}
+
+.account-menu{
+    display: none;
+}
+
+.account-first-div{
+    height: 90px;
+    border-bottom: 1px solid #606060 ;
+}
+
+.account-first-div img{
+    width: 45px;
+    height: 45px;
+    border-radius: 100%;
+    padding: 15px;
+}
+
+.account-first-div h2{
+    margin: 0;
+    color: white;
+    font-size: 18px;
+    padding: 16px;
+    font-weight: 700;
+    display: inline;
+    position: absolute
+
+}
+
+.account-first-div a{
+    position: relative;
+    top: -15px;
+    color: #3ea6ff;
+    text-decoration: none;
+}
+
+
+/* boton Youtube apps*/
+
+.button-apps{
+    background-color: #202020;
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    left: 1720px;
+    top: 10px;
+    border-radius: 100%;
+
+}
+
+.button-apps:hover{
+    background-color: #404040;
+    transition: .5s;
+}
+
+.button-apps i{
+    color: white;
+    position: relative;
+    top: 10px;
+    left: 10px
+}
+
+.div-apps{
+    background-color: #181818;
+    color: white;
+    position: absolute;
+    left: 1550px;
+    top: 60px;
+    display: none;
+
+
+}
+
+.menu-apps{
+    display: none;
+}
+
+.apps-ul{
+    position: relative;
+    background:#181818;
+    width: 220px;
+    margin: 0;
+    padding: 0;
+    border-bottom: 1px solid white;
+}
+
+.apps-li{
+    color: white;
+    list-style: none;
+    padding: 16px;
+    position: relative;
+    cursor: pointer;
+}
+
+.apps-li i{
+    color: #ff0000;
+    padding-right: 10px;
+    padding-left: 5px;
+}
+
+.apps-li:hover{
+    background-color: #404040;
+    transition: .5s;
+}
+
+
+
+/* boton de notificaciones*/
+
+.notification-menu{
+    display: none;
+}
+
+.notification-div{
+    width: 400px;
+    height: 200px;
+    position: absolute;
+    background-color: #181818;
+    display: none;
+    left: 1420px;
+}
+
+.notification-div-h2{
+    height: 50px;
+    border-bottom: 1px solid white;
+    
+}
+
+.notification-div-h2 h2{
+    margin: 0;
+    color: white;
+    font-size: 18px;
+    padding: 16px;
+    font-weight: 300;
+    display: inline;
+    position: absolute;
+}
+
+
+.notification-div-h2-i{
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+}
+
+.notification-div-h2-i i{
+    color: white;
+    position: absolute;
+    top: 12px;
+    left: 12px;
+    
+    
+}
+
+.notification-div-h2-i:hover{
+    background-color: #404040;
+    transition: .5s;
+}
+    
+
+.notification-button{
+    background-color: #202020;
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    left: 1780px;
+    top: 10px;
+    border-radius: 100%;
+}
+.notification-button i{
+    color: white;
+    position: relative;
+    top: 10px;
+    left: 13px
+}
+
+.notification-button:hover{
+    background-color: #404040;
+    transition: .5s;
+}
+
+/* boton create en nav */
+
+
+.create-div{
+    position: absolute;
+    background-color: #202020;
+    z-index: 100;
+    top: 60px;
+    left: 1500px;
+    display: none;
+    border: 1px solid #303030;
+    border-top: none;
+    
+
+}
+
+.menu-create{
+    display: none;
+}
+
+.create-button{
+    position: absolute;
+    height: 40px;
+    width: 40px;
+    top: 8px;
+    left: 1650px;
+    background-color: #202020;
+    border-radius: 100%;
+    
+
+}
+
+.create-button i{
+    color: white;
+    position: absolute;
+    top: 12px;
+    left: 10px;
+
+    
+}
+
+.create-button:hover{
+    background-color: #404040;
+    transition: .5s;
+}
+
+.create-ul{
+    position: relative;
+    background:#181818;
+    width: 160px;
+    margin: 0;
+    padding: 0;
+}
+
+.create-li{
+    color: white;
+    list-style: none;
+    padding: 16px;
+    position: relative;
+    cursor: pointer;
+}
+
+.create-li i{
+    padding-right: 10px;
+    padding-left: 5px;
+}
+
+.create-li:hover{
+    background-color: #404040;
+    transition: .5s;
+}
+
+/* navegador */
+
+.top-nav{
+    background: #202020;
+    height: 56px;
+    position: relative;
+    width: 100vw;
+    margin: 0;
+    
+  
+    
+}
+
+/*barra de search en navegador*/
+
+.search-input{
+    position: relative;
+    background-color:#181818;
+    color: white;
+    width: 560px;
+    height: 30px;
+    left: 500px;
+    top: 10px;
+    font-family: 'Roboto','Noto',sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    padding-left: 8px;
+    border: #404040 solid 1px;  
+}
+
+
+.search-button {
+    height: 40px;
+    width: 60px;
+    position: absolute;
+    left: 1075px;
+    top: 8px;
+    background: #404040;
+    cursor: pointer;
+    border: none; 
+}
+
+.search-button i{
+    background-color: #404040;
+    color: white;
+    
+}
+
+
+/*boton mic en navegador */
+
+.mic-button{
+    height: 42px;
+    width: 42px;
+    position: absolute;
+    left: 1150px;
+    top: 8px;
+    background: #121212;
+    cursor: pointer;
+    border: none;
+    border-radius: 100%;
+}
+
+.mic-button:active{
+    background-color: #404040;
+}
+
+.mic-button i{
+    color: white;
+}
+
+
+
+
+
+    
+.youtube-logo{
+    position: absolute;
+    height: 46px;
+    width: 150px;
+    z-index: 1000;
+    top: 0;
+    left: 75px;
+    object-fit: none;
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+
+
+/* toggle */
+
+.menu-button{
+    background:#202020;
+    width: 30px;
+    height: 28px;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 10px;
+    margin-left: 20px;
+    position: absolute;
+    top: 3px;
+
+    
+}
+.menu-button span{
+ background: white;
+ width: 30px;
+ height: 1px;
+ margin: auto;
+ 
+}
+
+.menu-button:hover{
+    background-color:#404040;
+    transition: .5s;
+}
+
+.menu-toggle{
+    display: none;
+}
+.toggle{
+    position: relative;
+    left: -270px;
+    transition: .5s;
+    overflow: scroll;
+    width: 270px;
+    height:calc(100vh - 57px);
+}
+::-webkit-scrollbar {display: none;}
+
+
+.toggle-ul{
+    position: relative;
+    background:#181818;
+    width: 230px;
+    border-bottom: 1px solid white;
+    margin: 0px;
+    
+}
+
+.toggle-li{
+    color: white;
+    list-style: none;
+    padding: 16px;
+    position: relative;
+    cursor: pointer;
+    
+}
+
+
+.toggle-li i{
+    padding: 5px;
+    position: relative;
+    right: 0px;
+    padding: 0 20px;
+   
+}
+
+.subs-h2{
+    margin: 0;
+    color: white;
+    font-size: 15px;
+    padding: 16px;
+    font-weight: 300;
+
+}
+
+.toggle li:hover{
+    background-color:#404040;
+    transition: .5s;
+    
+}
+
+
+/*funciones*/
+
+.menu-toggle:checked + .toggle {
+    left: -40px;
+}
+
+.menu-create:checked + .create-div{
+    display: block;
+}
+
+.menu-apps:checked + .div-apps{
+    display: block;
+}
+
+.notification-menu:checked + .notification-div{
+    display: block;
+}
+
+.account-menu:checked + .account-div{
+    display: block;
+}
